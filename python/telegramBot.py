@@ -13,7 +13,7 @@ from aiogram.utils.executor import start_webhook
 # webhook settings
 WEBHOOK_HOST = os.environ['WEBHOOK_HOST']
 WEBHOOK_PATH = os.environ['CHANIFY_TOKEN']
-WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+WEBHOOK_URL = f"{WEBHOOK_HOST}/{WEBHOOK_PATH}"
 
 # webserver settings
 WEBAPP_HOST = '0.0.0.0'  # or ip
