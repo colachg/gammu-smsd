@@ -10,7 +10,7 @@ connection = at
 
 # SMSD configuration, see gammu-smsdrc(5)
 [smsd]
-RunOnReceive = /opt/sms2mq.py
+RunOnReceive = /opt/python/sms2mq.py
 service = files
 logfile = syslog
 # Increase for debugging information
