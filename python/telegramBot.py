@@ -51,6 +51,7 @@ def send_sms(number, content):
 
 async def on_startup(dp):
     await bot.set_webhook(WEBHOOK_URL)
+    # send_sms(10001, 10001)
     # insert code here to run it after start
 
 
