@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}, ${{ secrets.DOCKER_USERNAME }}/gammu-smsd
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
       - name: Build and export to Docker
         uses: docker/build-push-action@v2
